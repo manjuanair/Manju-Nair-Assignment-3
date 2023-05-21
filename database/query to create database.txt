@@ -1,0 +1,7 @@
+CREATE TABLE Adventures (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  heading VARCHAR(30) NOT NULL,
+  tripDate DATE NOT NULL,
+  duration INT NOT NULL,
+  summary TEXT NOT NULL
+)
